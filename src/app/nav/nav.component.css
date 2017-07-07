@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+	font-size: 1.1em;
+	color:#ececec;
+	background: #38424c;
+}
+
+section{
+	flex:1 1;
+	display:flex;
+	flex-basis:auto;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+.active{
+	font-weight: bold;
+}
+.active:hover{
+	text-decoration: none;
+	cursor: default;
+}

@@ -1,0 +1,28 @@
+:host{
+	/*height: 100%;*/
+	flex:1 1;
+	display: flex;
+	flex-basis:auto;
+	flex-direction:column-reverse;
+  justify-content: space-around;
+
+  margin: .4em;
+	padding: 1em;
+	border-radius:6px;
+}
+
+
+article{
+  flex:1;
+	margin: .4em;
+	padding: 1em;
+	border-radius:6px;
+  background: #ececec;
+}
+
+@media (max-width: 640px) {
+  article {
+    flex-basis: auto; /* pour écraser la valeur 0, due au flex: 1 */
+  }
+}
+

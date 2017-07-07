@@ -1,0 +1,39 @@
+
+
+nav, about-me{
+	width:10em;
+}
+
+nav{
+	order:-1;
+}
+
+@media (max-width: 640px) {
+  nav,
+  about-me {
+    width: auto; /* pour écraser la valeur 10em */
+  }
+  nav,
+  about-me{
+    flex-basis: auto; /* pour écraser la valeur 0, due au flex: 1 */
+  }
+  nav {
+    order: 0; /* nav reprend sa place */
+  }
+}
+
+
+nav,about-me{
+	margin: .4em;
+	padding: 1em;
+	border-radius:6px;
+}
+
+nav {
+  background: #ececec;
+}
+about-me {
+  background: #ececec;
+}
+
+
