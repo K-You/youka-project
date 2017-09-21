@@ -16,7 +16,7 @@ export class PortfolioComponent implements OnInit {
   }
 
   getArticles():void{
-    this.articles= [{"title":"article1", "content":"gros contenu en latin -> lorem iplsum t'as vu héhé"}, {"title":"article 2", "content":"gros contenu en latin -> lorem iplsum t'as vu héhé"}];
+    // this.articles= [{"title":"article1", "content":"gros contenu en latin -> lorem iplsum t'as vu héhé"}, {"title":"article 2", "content":"gros contenu en latin -> lorem iplsum t'as vu héhé"}];
   }
 
 }
